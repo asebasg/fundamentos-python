@@ -81,7 +81,7 @@ Expresion:
 
 **Resultado**: 21
 
-### Ejercicio 5:
+### Ejercicio 5
 
 **Expresion**:
 `2 + 3 * (4 - 1)`
@@ -159,7 +159,7 @@ Expresion:
 
 **Resultado**: 90.
 
-### Ejercicio 10:
+### Ejercicio 10
 
 **Expresion**:
 `7 + 2 * (3 + 5) / 4`
@@ -208,7 +208,7 @@ Expresion:
 
 **Resultado**: 12.
 
-### Ejercicio 13:
+### Ejercicio 13
 
 **Expresion**:
 `(7 - 2) * 5 + 3 ** 2`
