@@ -243,3 +243,40 @@ Expresion:
    `4 + 1 = 5`
 
 **Respuesta**: 5.
+
+## Seccion 4: Variables, Operadores y Expresiones
+
+En esta sección se exploran los conceptos fundamentales de variables, operadores y expresiones en Python. Se trabajó con tres ejercicios prácticos que demuestran cómo declarar y utilizar variables, realizar operaciones matemáticas complejas y crear programas de conversión de unidades.
+
+### LAB 1: Variables y Asignación de Valores
+
+En este primer ejercicio se trabajó con la declaración de variables y la asignación de valores numéricos. Se crearon tres variables (john, mary, adam) que representan la cantidad de manzanas que tiene cada persona. Luego se calculó el total de manzanas sumando los valores de las tres variables, demostrando cómo las variables pueden ser utilizadas para almacenar y manipular datos en un programa.
+
+**Ejemplo de código:**
+```python
+john = 3
+mary = 5
+adam = 6
+total_apples = john + mary + adam
+```
+
+### LAB 2: Operadores y Expresiones Matemáticas
+
+Este ejercicio se enfoca en el uso de operadores aritméticos y la construcción de expresiones matemáticas complejas. Se trabajó con una función polinómica de tercer grado, demostrando cómo Python puede manejar operaciones matemáticas avanzadas incluyendo potencias y multiplicaciones. El ejercicio muestra dos formas equivalentes de escribir la misma expresión matemática, ayudando a entender la flexibilidad del lenguaje.
+
+**Expresión trabajada:**
+- `3*x**3 - 2*x**2 + 3*x - 1`
+- Forma alternativa: `3*x*x*x - 2*x*x + 3*x - 1`
+
+### LAB 3: Convertidor de Unidades
+
+El tercer ejercicio implementa un programa de conversión entre millas y kilómetros. Se utilizó un factor de conversión de 1.61 para convertir entre estas unidades de medida. El programa demuestra cómo las variables pueden ser utilizadas para almacenar valores de entrada, realizar cálculos de conversión y mostrar resultados formateados al usuario.
+
+**Conversión implementada:**
+- Millas a kilómetros: `miles * 1.61`
+- Kilómetros a millas: `kilometers / 1.61`
+
+**Características del programa:**
+- Uso de la función `round()` para formatear los resultados a dos decimales
+- Mensajes claros y descriptivos para el usuario
+- Demostración de operaciones de multiplicación y división en contexto real
