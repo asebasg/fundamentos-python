@@ -253,6 +253,7 @@ En esta sección se exploran los conceptos fundamentales de variables, operadore
 En este primer ejercicio se trabajó con la declaración de variables y la asignación de valores numéricos. Se crearon tres variables (john, mary, adam) que representan la cantidad de manzanas que tiene cada persona. Luego se calculó el total de manzanas sumando los valores de las tres variables, demostrando cómo las variables pueden ser utilizadas para almacenar y manipular datos en un programa.
 
 **Ejemplo de código:**
+
 ```python
 john = 3
 mary = 5
@@ -265,6 +266,7 @@ total_apples = john + mary + adam
 Este ejercicio se enfoca en el uso de operadores aritméticos y la construcción de expresiones matemáticas complejas. Se trabajó con una función polinómica de tercer grado, demostrando cómo Python puede manejar operaciones matemáticas avanzadas incluyendo potencias y multiplicaciones. El ejercicio muestra dos formas equivalentes de escribir la misma expresión matemática, ayudando a entender la flexibilidad del lenguaje.
 
 **Expresión trabajada:**
+
 - `3*x**3 - 2*x**2 + 3*x - 1`
 - Forma alternativa: `3*x*x*x - 2*x*x + 3*x - 1`
 
@@ -273,10 +275,80 @@ Este ejercicio se enfoca en el uso de operadores aritméticos y la construcción
 El tercer ejercicio implementa un programa de conversión entre millas y kilómetros. Se utilizó un factor de conversión de 1.61 para convertir entre estas unidades de medida. El programa demuestra cómo las variables pueden ser utilizadas para almacenar valores de entrada, realizar cálculos de conversión y mostrar resultados formateados al usuario.
 
 **Conversión implementada:**
+
 - Millas a kilómetros: `miles * 1.61`
 - Kilómetros a millas: `kilometers / 1.61`
 
 **Características del programa:**
+
 - Uso de la función `round()` para formatear los resultados a dos decimales
 - Mensajes claros y descriptivos para el usuario
 - Demostración de operaciones de multiplicación y división en contexto real
+
+## LAB: Algoritmos en Python
+
+Ahora se realizarán algoritmos basicos en Python siguiendo la estructura y teniendo en cuenta los conocimientos ya adquiridos.
+
+1. Calcular el puntaje total de un jugador: Escribe un algoritmo que solicite los puntos obtenidos en tres niveles de un videojuego y calcule el puntaje total del jugador.
+
+   Para resolver este algoritmo, incialmente creamos tres variables llamadas `nivel1`, `nivel2`, `nivel3` y se les pone un valor aleatorio. Luego de ello, se suman los tres puntajes con la variable `puntaje_total` y finalmente se muestra en consola el resultado.
+
+2. Calcular el tiempo total de juego: Escribe un algoritmo que solicite las horas, minutos y segundos jugados y calcule el tiempo total jugado en segundos.
+
+   Se crean tres variables llamadas `horas`, `minutos`, `segundos` y se les asigna un valor aleatorio. Luego se concatena las variables para formar las horas, minutos y segundos totales.
+
+3. Calcular el daño total causado por un personaje: Escribe un algoritmo que solicite el daño causado por un personaje en tres ataques y calcule el daño total.
+
+   Para resolver este algoritmo, se crean dos variables llamadas `vida_total` y `daño_causado`. Al primer valor se le asigna un valor de 100, mientras que al segundo se le asigna un valor aleatorio. Se agregan nuevos valores a las variables existentes con `+=`, el cual suma el nuevo valor de la variable a la variable existente. Finalmente, se actualiza el valor de `vida_total` con la resta de `vida_total - daño_causado`.
+
+4. Calcular la experiencia total ganada: Escribe un algoritmo que solicite la experiencia ganada en tres misiones y calcule la experiencia total acumulada.
+
+   Para realizar este algoritmo, declaramos dos variables llamadas `exp_total` y `exp`. La primera variable sera inicializada en 0, mientras que la segunda se ira actualizando conforme se vaya subiendo de nivel (con el operador de asignacion `+=`). Finalmente, se reasigna el valor de `exp_total` con el valor de `exp` y se muestra la experiencia total obtenida por el jugador.
+
+5. Calcular el porcentaje de vida restante: Escribe un algoritmo que solicite la vida máxima y la vida actual de un personaje y calcule el porcentaje de vida restante.
+
+   Declaramos dos variables llamadas `vida_max` y `vida_actual` las cuales tendran dos valores aleatorios. Luego en otra variable llamada `porcentaje_vida` hacemos la operacion con ambas variables anteriormente declaradas y mostramos el resultado.
+
+6. Calcular el oro total recolectado: Escribe un algoritmo que solicite el oro recolectado en tres misiones y calcule el oro total acumulado.
+
+   Se suma el oro recolectado en tres misiones y se imprime el total acumulado.
+
+7. Calcular la velocidad promedio de un vehículo en un juego de carreras: Escribe un algoritmo que solicite la distancia recorrida y el tiempo tomado, y calcule la velocidad promedio del vehículo.
+
+   Se definen la distancia recorrida y el tiempo tomado. Se calcula la velocidad promedio y se imprime.
+
+8. Calcular el costo total de mejoras en un juego: Escribe un algoritmo que solicite el costo de tres mejoras y calcule el costo total de las mejoras.
+
+   Se suman los costos de tres mejoras y se imprime el costo total.
+
+9. Calcular el tiempo restante para completar una misión: Escribe un algoritmo que solicite el tiempo total de una misión y el tiempo transcurrido, y calcule el tiempo restante para completarla.
+
+   Se define el tiempo total y el tiempo transcurrido. Se calcula el tiempo restante y se imprime.
+
+10. Calcular el nivel promedio de un equipo de jugadores: Escribe un algoritmo que solicite el nivel de tres jugadores y calcule el nivel promedio del equipo.
+
+    Se definen los niveles de tres jugadores. Se calcula el promedio y se imprime.
+
+11. Calcular el daño crítico en un ataque: Escribe un algoritmo que solicite el daño base de un ataque y el multiplicador crítico, y calcule el daño crítico.
+
+    Se multiplica el daño base por el multiplicador crítico y se imprime el daño crítico.
+
+12. Calcular el tiempo total de juego en horas y minutos: Escribe un algoritmo que solicite el tiempo total jugado en minutos y lo convierta a horas y minutos.
+
+    Se convierte el tiempo total jugado en minutos a horas y minutos usando división y módulo, y se imprime el resultado.
+
+13. Calcular el porcentaje de misiones completadas: Escribe un algoritmo que solicite el número total de misiones y el número de misiones completadas, y calcule el porcentaje de misiones completadas.
+
+    Se calcula el porcentaje de misiones completadas dividiendo el número de misiones completadas entre el total y multiplicando por 100.
+
+14. Calcular el costo total de objetos comprados en una tienda del juego: Escribe un algoritmo que solicite el costo de tres objetos comprados en una tienda del juego y calcule el costo total.
+
+    Se suman los costos de tres objetos comprados y se imprime el total.
+
+15. Calcular el tiempo promedio de una partida: Escribe un algoritmo que solicite el tiempo de tres partidas y calcule el tiempo promedio de las partidas.
+
+    Se suman los tiempos de tres partidas y se calcula el promedio. Se imprime el resultado.
+
+16. Calcular el porcentaje de enemigos derrotados: Escribe un algoritmo que solicite el número total de enemigos y el número de enemigos derrotados, y calcule el porcentaje de enemigos derrotados.
+
+    Se calcula el porcentaje de enemigos derrotados dividiendo el número de enemigos derrotados entre el total y multiplicando por 100.
