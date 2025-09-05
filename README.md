@@ -1,18 +1,20 @@
-# Laboratorio de fundamentos de Python
+# GA1-220501096-01-AA1-EV01 – Fundamentos de Python: variables, operadores y manipulación de cadenas
+
+## Laboratorio de fundamentos de Python
 
 Este es un laboratorio de fundamentos de Python en el cual se explorarán las características básicas del lenguaje. Cada característica **se dividirá en una carpeta distinta**.
 
-## Seccion 1: Trabajando con la funcion print()
+### Seccion 1: Trabajando con la funcion print()
 
 En esta sección se trabajó con la función print() en Python, explorando diferentes formas de imprimir texto en la terminal. Se incluyen ejemplos básicos como imprimir cadenas de texto simples, el uso de saltos de línea con "\n", y la impresión de múltiples argumentos separados por comas. También se muestra cómo controlar el final de la línea con el parámetro `end` y cómo cambiar el separador entre argumentos con `sep`. Finalmente, se presenta un ejemplo de impresión de un patrón con asteriscos que forma una flecha apuntando hacia arriba.
 
-## Seccion 2: Cadenas Literales
+### Seccion 2: Cadenas Literales
 
 Este módulo contiene ejemplos prácticos sobre el uso de cadenas literales y otros tipos de datos en Python. Se muestran diferentes formas de imprimir números enteros y flotantes, incluyendo notación científica y separadores de dígitos. También se ilustran técnicas para manejar comillas dentro de cadenas, el uso de caracteres de escape como saltos de línea, y la comparación de valores booleanos. Además, se demuestran distintas maneras de concatenar y formatear cadenas utilizando parámetros como 'sep' y 'end' en la función print.
 
 Esta sección es fundamental para entender cómo manipular y mostrar texto y datos básicos en Python de manera efectiva.
 
-## Seccion 3: Operadores Matemáticos
+### Seccion 3: Operadores Matemáticos
 
 En esta sección se explicarán catorce ejercicios que cubren los operadores matemáticos en Python. Los ejercicios incluyen operadores tales como: Suma, resta, multiplicación, división entera, división flotante, potencia y módulo. Además de explicar como se operan entre sí y el resultado que dio el algoritmo en la terminal.
 
